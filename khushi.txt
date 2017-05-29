@@ -1,0 +1,13 @@
+Sign in - /login - 
+
+710 - Admin dashboard
+702 - Student Dashboard
+703 - Send to Otp - New screen OTP
+
+
+Sign up - 
+
+select project - /project
+
+=============
+

@@ -1,0 +1,30 @@
+<ion-view view-title="sign_up" align-title="left" ">
+    <ion-content padding="true " class="login-background ">
+        <div class="app-icon "></div>
+        <form id="signup-form5 " class="list signup-form ">
+            <h4 id="signup-heading1 " style="color: #ddd; text-align: center; ">CREATE AN ACCOUNT </h4>
+          <div class="input-field">
+            <input id="username" type="text" ng-model="user.name">
+            <label for="username" class="center-align">Username</label>
+          </div>
+          <div class="input-field">
+            <input id="email" type="text"  ng-model="user.email_id">
+            <label for="email" class="center-align">Email</label>
+          </div>
+          <div class="input-field">
+            <input id="password" type="{{inputType}}" ng-model="user.password">
+            <label for="password">Password</label>
+          </div>
+          <span class="show-hide">
+            <input type="checkbox" id="checkbox" ng-model="passwordCheckbox" ng-click="hideShowPassword()" />
+            <label for="checkbox" ng-if="passwordCheckbox">Hide password</label>
+            <label for="checkbox" ng-if="!passwordCheckbox">Show password</label>
+           </span>
+            <button id="signup-button5 " class="button button-block sign-in-button " ng-click="sign_up() ">Sign up</button>
+            <div id="login-markdown1 " style="text-align:center; ">
+                <p class="signup-account ">Already have an account?</p>
+                <a ui-sref="login " id="login-button2" class="button button-light button-block button-clear">SIGN IN</a>
+            </div>
+        </form>
+    </ion-content>
+</ion-view>

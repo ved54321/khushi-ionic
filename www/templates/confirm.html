@@ -1,0 +1,27 @@
+<ion-view view-title="Login" align-title="left" ">
+<ion-content padding="true " class ="login-background ">
+<div class="app-icon "></div>
+<div class="list">
+  <div class="margin-form"></div>
+  <div class="input-field col s12">
+    <input id="password" type="password" ng-model="user.password">
+    <label for="password">Password</label>
+  </div>
+  <div class="input-field col s12">
+    <input id="password" type="password" ng-model="user.confirm_password">
+    <label for="password">Re Enter Password</label>
+  </div>
+  <div class="margin-div"></div>
+  <div class="item item-input-inset center-button">
+    <button class="button button-small cancel-forgot-button" ng-click="confirm_password()">
+    Confirm
+    </button>
+    <div class="divider"></div>
+    <button ui-sref="login" class="button button-small cancel-forgot-button">
+    Cancel
+    </button>
+  </div>
+</div>
+</div>
+</ion-content>
+</ion-view>

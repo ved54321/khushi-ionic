@@ -1,0 +1,33 @@
+<ion-view title="Signup" id="page6">
+    <ion-content padding="true" class="login-background">
+        <div class="app-icon"></div>
+        <form id="signup-form5" class="list signup-form">
+            <p class="signup-account otp-text" style="text-align:center;" >We're almost done</p>
+            <div class="margin-project"></div>
+            <div class="list">
+                <label class="item item-input item-select">
+                    <div class="input-label signup-account">
+                        Select Project
+                    </div>
+                   <select ng-model="user.project" ng-options="item.project_name for item in testAccounts" class="project-select">
+                    <option value=""></option>
+                </select>
+                </label>
+
+                <label class="item item-input item-select">
+                    <div class="input-label role-account">
+                        Select Role
+                    </div>
+                   <select ng-model="user.role" ng-options="item.name for item in testRoles" class="project-select">
+                    <option value=""></option>
+                </select>
+                </label>
+            </div>
+            <div class="item item-input-inset">
+                <button class="button button-block sign-in-button" ng-click="send_dashboard()">
+                    Submit
+                </button>
+            </div>
+        </form>
+    </ion-content>
+</ion-view>

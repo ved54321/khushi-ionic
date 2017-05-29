@@ -1,0 +1,28 @@
+<ion-view id="page6">
+    <ion-content padding="true" class="login-background">
+        <div class="app-icon"></div>
+        <div class="list">
+            <p class="signup-account otp-text">We've sent a OTP to your registred email address.Please enter it in the box below to verify your account</p>
+            <div class="margin-form"></div>
+              <div class="center-otp">
+                    <div class="row margin">
+                        <div class="input-field col s12">
+                            <input id="otp" type="text" ng-model="user.otp">
+                                <label for="email" data-error="wrong" data-success="right" class="center-align">Enter OTP</label>
+                        </div>
+                     </div>
+                </div>
+                <div class="margin-div"></div>
+                <div class="item item-input-inset center-button">
+                    <button class="button button-small cancel-forgot-button" ng-click="sendotp()">
+                        Confirm
+                    </button>
+                    <div class="divider"></div>
+                    <button ui-sref="login" class="button button-small cancel-forgot-button">
+                        Cancel
+                    </button>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

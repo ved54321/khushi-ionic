@@ -1,0 +1,27 @@
+<ion-view id="page6">
+    <ion-content padding="true" class="login-background">
+        <div class="app-icon"></div>
+        <div class="list">
+        <p class="signup-account otp-text">Just enter your email address below and click Submit, we'll send you a temporary password</p>
+            <div class="margin-form"></div>
+                    <div class="row margin">
+                        <div class="input-field col s12">
+                            <input id="email" type="text" ng-model="user.email_id">
+                                <label for="email" data-error="wrong" data-success="right" class="center-align">Email</label>
+                        </div>
+                     </div>
+                <div class="margin-div"></div>
+                <div class="item item-input-inset center-button">
+                    <button class="button button-small sign-in-button" ng-click="forgot()">
+                        Confirm
+                    </button>
+                    <div class="divider"></div>
+                    <button ui-sref="login" class="button button-small cancel-forgot-button">
+                        Cancel
+                    </button>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
+

@@ -1,0 +1,24 @@
+<ion-view view-title="Login" align-title="left" ">
+<ion-content padding="true " class ="login-background ">
+<div class="app-icon "></div>
+      <div class="input-field col m12">
+        <input id="email" type="text" ng-model="user.email_id">
+        <label for="email" data-error="wrong" data-success="right" class="center-align">Email</label>
+      </div>
+      <div class="input-field col m12">
+        <input id="password" type="password" ng-model="user.password">
+        <label for="password">Password</label>
+      </div>
+    
+<div class="padding ">
+    <button class="button button-full sign-in-button " ng-click ="login() ">SIGN IN </button>
+</div>
+<div id="login-markdown1 " style="text-align:center; " class="show-list-numbers-and-dots ">
+    <p class="signup-account">Don't have an account?</p>
+    <a ui-sref="signup" id="login-button2" class="button button-light button-block button-clear">SIGN UP NOW</a>
+        <a ui-sref="forgot" id="forgot-button" class="button button-light button-block button-clear">Forgot your login details?</a>
+
+</div>
+
+</ion-content>
+</ion-view>

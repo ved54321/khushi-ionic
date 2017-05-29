@@ -1,0 +1,35 @@
+<ion-side-menus enable-menu-with-back-views="true">
+    <ion-side-menu-content>
+        <ion-nav-bar class="nav-header" align-title="left">
+            <ion-nav-buttons side="left">
+                <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+                </button>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+        <ion-nav-view name="menuContent" ng-class="{expanded: isExpanded}"></ion-nav-view>
+    </ion-side-menu-content>
+    <ion-side-menu side="left" id="side-menu21" class="login-background">
+        <ion-content padding="false" class="side-menu-left has-header ">
+            <div>
+                <img src="./img/arrklogo.png" style="display: block; width: 100%; height: auto; margin-left: auto; margin-right: auto;">
+            </div>
+            <div id="menu-markdown1" class="show-list-numbers-and-dots menu-name">
+                <p style="color:#CFCECE;">Hello, {{email}}</p>
+            </div>
+            <div class="menu-list">
+            <ion-list class="menu-list">
+                <ion-item style="color:#CFCECE;" nav-clear menu-close ui-sref="app.dashboard" class= "menu-item-list">
+                    Dashboard
+                </ion-item>
+                <ion-item style="color:#CFCECE;" nav-clear menu-close ui-sref="app.feedback" class= "menu-item-list">
+                    Feedback
+                </ion-item>
+                <ion-item style="color:#CFCECE;" nav-clear menu-close ng-click="logout()" class= "menu-item-list">
+                    Log out
+                </ion-item>
+
+            </ion-list>
+            </div>
+        </ion-content>
+    </ion-side-menu>
+</ion-side-menus>

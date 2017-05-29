@@ -1,0 +1,255 @@
+/* General
+==================================*/
+
+h1 {
+    color: #fff;
+    text-shadow: 0 1px 0px #000;
+    font-size: 42px;
+}
+
+
+/* Utilities
+==================================*/
+
+.title-bordered {
+    border-top: solid 2px #bbb;
+    padding-top: 30px;
+}
+
+p {
+    color: #555;
+    margin: 0 0 25px;
+}
+
+.sign-in-button {
+    border-color: #28a54c;
+    background-color: #03AE94;
+    font-family: sans-serif;
+    margin-left: 5px;
+}
+
+.cancel-button {
+    border-color: #28a54c;
+    background-color: #03AE94;
+    font-family: sans-serif;
+    margin: 0 15px 0;
+}
+
+.cancel-forgot-button {
+    border-color: #28a54c;
+    background-color: #03AE94;
+    font-family: sans-serif;
+    margin: 0 15px 0;
+}
+
+.scroll {
+    height: 100%;
+}
+
+input[type="text"] {
+    background: transparent;
+    color: #ffffff;
+    border-bottom: solid thin #98749e !important;
+}
+
+input[type="password"] {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    border-bottom: solid thin #98749e !important;
+}
+
+.list-image {
+    display: inline-block;
+    width: 30%;
+}
+
+.divider {
+    width: 5px;
+    height: auto;
+    display: inline-block;
+}
+
+
+/* Menu
+==================================*/
+
+.menu .bar.bar-header.expanded {
+    transition: all .5s ease-in-out;
+}
+
+.menu-open .bar.bar-header.expanded {
+    background-color: #222;
+}
+
+
+/* Login
+==================================*/
+
+#login-button2 {
+    top: -32px;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin: 20px 0 0;
+    display: block;
+}
+
+.app-icon {
+    background-color: #fff;
+    background: url(../img/arrklogo.png) center;
+    background-size: cover;
+    height: 129px;
+    margin: 45px auto;
+    width: 300px;
+}
+
+.thank-para {
+    font-size: 18px;
+    font-style: normal;
+    font-family: sans-serif;
+    margin: 19px 22px 0;
+}
+
+.thank-img {
+    background: url(../img/thankyou.png) center;
+    background-size: cover;
+    height: 136px;
+    margin: 91px auto;
+    width: 324px;
+}
+
+.login-background {
+    background: -webkit-linear-gradient(124deg, #4a2466 -30%, #7e338c 37%);
+    background: -o-linear-gradient(124deg, #4a2466 -30%, #7e338c 37%);
+    background: -ms-linear-gradient(124deg, #4a2466 -30%, #7e338c 37%);
+    background: -moz-linear-gradient(124deg, #4a2466 -30%, #7e338c 37%);
+    background: linear-gradient(124deg, #4a2466 -30%, #7e338c 37%);
+}
+
+.margin-form {
+    margin: 12px 3px 19px;
+}
+
+.margin-project {
+    margin: 23px 0 21px;
+}
+
+.otp-text {
+    margin: 16px 11px -1px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.center-otp {
+    margin: 0px 28px 0px;
+}
+
+.social-login {
+    position: fixed;
+    bottom: 0;
+}
+
+.margin-div {
+    margin: 7px 0px 0px;
+}
+
+.signup-account {
+    color: #ddd;
+    text-align: center;
+}
+
+.item-select select {
+    background: transparent;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.quotient_images {
+    width: 99%;
+}
+
+.quotient_images img {
+    width: 100%;
+    margin: 0 13px 4px;
+}
+
+.scroll-content {
+    padding-bottom: 0!important;
+}
+
+.nav-header {
+    background-color: #03AE94;
+    font-family: sans-serif;
+}
+
+#feed-txt {
+    display: block;
+    margin: 0;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 17px;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+    border: solid 1px #dcdcdc;
+    height: 50px;
+    padding-left: 5px;
+    background: #ddd;
+    color: #151010;
+    margin-right: 10px;
+    word-wrap: break-word;
+    width: 100px !important;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0.4em;
+    padding-right: 0.4em;
+}
+
+.menu-name {
+    margin: 5px 10px 0px;
+}
+
+.menu-list {
+    background: #f2f2f2;
+    height: 100%;
+    display: block;
+}
+
+.menu-item-list {
+    color: #404040 !important;
+}
+
+#feed-txt:focus {
+    outline: none;
+}
+
+.center-button {
+    text-align: center;
+}
+
+.cancel-button {
+    margin: 0 -10px 0;
+}
+
+.cancel-forgot-button {
+    margin: 0 15px 0;
+}
+
+#forgot-button {
+    top: -62px;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin: 20px 0 0;
+    display: block;
+}
+
+.ng-hide.ng-hide-animate {
+    display: none !important;
+}
+
+.role-account {
+    color: #ddd;
+    text-align: center;
+    margin: 0 -10px 0px;
+}
